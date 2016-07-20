@@ -1,0 +1,40 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>任务中心</title>
+    <style>
+        #demo-table th.reactable-header-sort-desc:after {
+            content: '\25B2';
+            font-size: 0.625em;
+            padding-left: 0.625em;
+            padding-bottom: 0.325em;
+        }
+
+        #demo-table {
+            width: 100%;
+            overflow-y: auto;
+            overflow: auto;
+            margin: 0 0 1em;
+        }
+
+            #demo-table th.reactable-header-sort-asc:after {
+                content: '\25BC';
+                font-size: 0.625em;
+                padding-left: 0.625em;
+                padding-bottom: 0.325em;
+            }
+    </style>
+    <link href="~/Scripts/style.css" rel="stylesheet" />
+    <script src="~/Scripts/flexible.js"></script>
+</head>
+<body>
+    <div id="app"><div style="text-align: center"><h6>加载中...</h6></div></div>
+    <script src="~/Scripts/app.js?v=1.2"></script>
+</body>
+</html>
